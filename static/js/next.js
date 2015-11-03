@@ -1,4 +1,5 @@
 var main = function(){
+	$('html').removeClass('js');
 	$('#hed').hide();
 	$('#subhed').hide();
 	$('#nextcols').hide();
@@ -10,8 +11,8 @@ var main = function(){
 		$('#contactarea').fadeIn(1500);
 	});
 	$("#contactbtn").click(function(){
-		$('#main').hide("slide", {direction: "left"}, 1000);
-		$('#cbcontainer').show();
+		$('#main').hide("slide", {direction: "left"}, 500);
+		$('#cbcontainer').show(1200);
 	});
 }
 

@@ -105,13 +105,13 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.8/howto/static-files/
 
-STATIC_PATH = os.path.join(BASE_DIR, 'static')
+#STATIC_PATH = os.path.join(BASE_DIR, 'static')
 
 #STATIC_URL = '/static/'
 
 #STATICFILES_DIRS = (
- #  STATIC_PATH,
-  # )
+#   STATIC_PATH,
+#   )
 
 AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
 AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')
