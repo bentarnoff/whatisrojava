@@ -1,0 +1,61 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+<body>
+<div class="container-fluid">
+<div class="row">
+<div class="parallax-jumbo jumbo" data-parallax="scroll" data-image-src="{% static "images/jumbo.jpg" %}" data-natural-width="1303" data-natural-height="812" data-position="top" data-bleed="10">
+</div>
+</div>
+<div class="row">
+<div class="col-xs-6 col-xs-offset-3">
+<div class="hed" id="stickyhed">
+<h1>what is <span style="font-weight: 400;">rojava</span>?</h1>
+</div>
+</div>
+</div>
+<div class="row subhed">
+<div class="col-xs-6 col-xs-offset-3" id="stickysubhed">
+	&nbsp;
+</div>
+</div>
+<div class="row subhed" id="map">
+<div class="col-xs-12">
+<img src="{% static "images/rojavamap.png" %}">
+</div>
+</div>
+<div class="bottom" id="stickydescript">
+<div class="col-xs-6 col-xs-offset-3">
+  <div style="display: table; height: 600px; overflow: hidden;">
+     <div style="display: table-cell; vertical-align: middle;">
+	<h2><span style="font-weight: 400;">rojava</span> is an autonomous region in northern syria
+	where kurds, arabs, and others are building a society based on
+	<div class="dlist_box">
+	<ul>
+	<li class="dlist">direct democracy,</li>
+	<li class="dlist">women's liberation,</li>
+	<li class="dlist">ecology, <span style="font-weight: 100;">and</li>
+	<li class="dlist">secularism</li></p>
+	</ul>
+	</h2>
+	</div>
+  	<div style="display: table-cell; position: absolute; right:0px; bottom:0px;">
+   	<form action="/next/">
+   	<button class="btn btn-default">continue</button>
+  	 </form>
+   </div>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+<div>
+	beep
+</div>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="{% static "js/parallax.min.js" %}"></script>
+<script src="{% static "js/intro.js" %}"></script>
+</body>
+{% endblock %}

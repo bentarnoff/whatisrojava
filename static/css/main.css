@@ -1,0 +1,156 @@
+body {
+	font-family:'Raleway', sans-serif;
+	color: #FFFFFF;
+	background: #659BD7;
+	font-weight: 100;
+}
+
+a:hover {
+	color: #FFFFFF;
+	text-decoration: none;
+	border-bottom: 1px dashed;
+}
+
+a, a:visited, a:active, a:focus {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+h1 {
+	font-size: 72px;
+	font-weight: 100;
+	color: #FFFFFF;
+	text-shadow: 0 1px 1px rgba(0,0,0,.2);
+}
+
+h2 {
+	font-weight: 100;
+	font-size: 40px;
+	text-shadow: 0 1px 1px rgba(0,0,0,.2);
+}
+
+.jumbo {
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 800px;
+}
+
+.hed {
+	background: #659BD7;
+	height: 200px;
+	text-align: center;
+}
+
+.subhed {
+	background-color: #659BD7;
+	height: 800px;
+	text-align: center;
+}
+
+.nextsubhed {
+	font-size: 55px;
+	font-weight: 100;
+	text-align: center;
+	padding-top: 25px;
+}
+
+.nextcols{
+	font-size: 30px;
+	font-weight: 100;
+	padding-top: 20px;
+}
+
+.read, .watch, .explore{
+	border: 1px dotted;
+	border-radius: 10%;
+	padding: 10px;
+	box-shadow: 0px 4px 1px 0px #000000;
+}
+
+.bottom {
+	background: #659BD7;
+	background-size: cover;
+	text-align: left;
+	height: 800px;
+ }
+
+.container-fluid {
+margin-left:-20px;
+ margin-right:-20px;
+}
+
+#sticker{
+margin-left:-20px;
+ margin-right:-20px;	
+}
+
+.dlist {
+	font-weight: 400;
+}
+
+.dlist_box {
+	padding: 25px;
+}
+
+ul li {
+	list-style-type: circle;
+}
+
+.btn{
+
+	background: transparent;
+	color: #FFFFFF;
+
+	font-weight: 100;
+	font-size: 20px;
+
+	/* CSS Transition */
+	-webkit-transition: background .2s ease-in-out, border .2s ease-in-out;
+	-moz-transition: background .2s ease-in-out, border .2s ease-in-out;
+	-ms-transition: background .2s ease-in-out, border .2s ease-in-out;
+	-o-transition: background .2s ease-in-out, border .2s ease-in-out;
+	transition: background .2s ease-in-out, border .2s ease-in-out;
+
+}
+
+.mainslide {
+	background: #659BD7;
+	background-size: cover;
+	height: 800px;
+}
+
+input[type="text"], textarea {
+	background-color: #659BD7;
+	color: #FFFFFF;
+	display: block;
+	border: 0px dotted #FFFFFF;
+	border-radius: 4px;
+	width: 300px;
+	outline: 0px;
+	margin-top: 15px;
+	text-align: center;
+}
+
+.cbtns {
+	margin-top: 10px;
+}
+
+::-webkit-input-placeholder {
+   color: #FFFFFF;
+   font-size: 20px;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #FFFFFF;
+   font-size: 20px;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #FFFFFF;  
+   font-size: 20px;
+}
+
+:-ms-input-placeholder {  
+   color: #FFFFFF;  
+     font-size: 20px;
+}
