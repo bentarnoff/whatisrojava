@@ -1,0 +1,1 @@
+web: gunicorn whatisrojava.wsgi --log-file -
