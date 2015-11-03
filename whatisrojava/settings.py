@@ -117,7 +117,7 @@ AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
 AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')
 AWS_STORAGE_BUCKET_NAME = 'whatisrojava'
 
-STATIC_URL = 'http://whatisrojava.s3.amazonaws.com/'
-ADMIN_MEDIA_PREFIX = STATIC_URL + 'admin/'
+STATIC_URL = 'http://whatisrojava.s3.amazonaws.com/static'
+#ADMIN_MEDIA_PREFIX = STATIC_URL + 'admin/'
 
 
