@@ -4,7 +4,7 @@ var main = function(){
 	$('#nextcols').hide();
 	$('#contactarea').hide();
 	$('#cbcontainer').hide();
-	$('#hed').show("slide", {direction:"right"}, 500, function(){
+	$('#hed').fadeIn(500, function(){
 		$('#subhed').fadeIn(1000);
 		$('#nextcols').fadeIn(1500);
 		$('#contactarea').fadeIn(1500);
