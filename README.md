@@ -6,4 +6,4 @@ I made a site about the democratic experiment that's happening there.
 
 Built in Django, with some fun effects in jQuery. It's a little sparse right now, but I'm planning to build it out.
 
-See it live at <a href="http://whatisrojava.com">http://www.whatisrojava.com</a>.
+See it live at <a href="https://whatisrojava.herokuapp.com">whatisrojava</a>.
